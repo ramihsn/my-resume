@@ -1,12 +1,9 @@
 from flask import Flask
+import views
 
 app = Flask(__name__)
-
-
-@app.route("/")
-def home():
-    return "Hello World"
+app.register_blueprint(views.root, url_prefix='/')
 
 
 if __name__ == "__main__":
-    app.run('0.0.0.0', port=8000)
+    app.run('0.0.0.0', port=8000, debug=True)
