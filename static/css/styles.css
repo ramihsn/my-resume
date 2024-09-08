@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+main {
+    width: 100%;
+    height: 95%;
+    
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+/* Left Column (Contact and Skills) */
+.left-column-container {
+    width: 30%;
+}
+
+.left-column {
+    /* width: 30%; */
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 0 0 0 20px;
+}
+
+.contact-info, .technical-skills, .languages, .recommendations {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Right Column (Experience, Summary, etc.) */
+.right-column-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.right-column {
+    /* width: 70%; */
+    padding: 20px;
+}
+
+.summary p, .projects p, .education p {
+    margin-bottom: 15px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.block {
+    background-color: #376092;
+    height: 70px;
+    width: 100%;
+}
+
+.upper-block {
+    border-radius: 20px 0 0 0;
+}
+
+.lower-block {
+    border-radius: 0 0 20px 0;
+}
